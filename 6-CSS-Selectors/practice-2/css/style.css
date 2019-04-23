@@ -1,0 +1,25 @@
+body{
+    background: gray;
+}
+
+#mainHeader{
+    text-align: center;
+}
+
+hr{
+    border-color: red;
+}
+
+.articleSection article a{
+    text-decoration: none;
+    color: gold;
+}
+
+.articleSection > a{
+    text-decoration: none;
+    color: brown;
+}
+
+.articleSection article a:hover{
+    color: white;
+}
