@@ -1,0 +1,21 @@
+body{
+    background: black;
+}
+
+#headerItem{
+    color: white;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+
+.imgSection img{
+    width: 450px;
+}
+
+.imgSection img:hover{
+    border: 2px solid red;
+}
