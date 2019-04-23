@@ -1,0 +1,32 @@
+.btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: red;
+    background-color: wheat;
+    font-size: 20px;
+}
+
+.btn.btn-primary{
+    background-color: blue;
+    color: white;
+    border-style: none;
+}
+
+.btn.btn-default{
+    background-color: white;
+    border-color: silver;
+}
+
+.btn.btn-dashed{
+    background-color: white;
+    border-style: dashed;
+    border-color: silver;
+}
+
+.btn.btn-danger{
+    background-color: rgb(228, 232, 235);
+    border-color: silver;
+    color: red;
+}
