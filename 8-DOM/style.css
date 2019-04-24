@@ -1,29 +1,116 @@
+body, html{
+    background: #d7fff7;
+    margin: 0;
+    height: 100%;
+}
+
 .container{
-    width:330px;
-    height: 450px;
+    position: relative;
+    top: 15%;
+    bottom: 15%;
+    background: white;
+    padding: 0 10px;
+    margin: -10px auto;
+}
+
+.card{
+    margin: 20px 0;
+    background: white;
+    border: silver 1px solid;
+    width: 340px;
     display: inline-block;
-    border: 2px solid silver;
-    border-radius: 3px;
-    margin: 10px;
 }
 
-.container img{
-    width: 100%;
-    height: 70%;
+.card-header{
+    border-bottom: silver 1px solid;
+    padding-bottom: 10px;
 }
 
-p{
-    text-align: center;
-    font-size: 25px;
-}
-
-a{
+.more-data{
     display: block;
-    text-decoration: none;
-    color: silver;
-    font-size: 20px;
-    text-align: center;
+    margin-top: 10px;
 }
-h1{
-    margin: 10px;
+
+.file-container{
+    display: flex;
+    align-items: center;
+}
+
+.file-container img{
+    margin-right: 10px;
+}
+
+.user-data-container{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.user-data-container img {
+    height: 100%;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+
+.user-data{
+    display: inline-block;
+}
+
+.card-footer{
+    height: 25px;
+    padding-bottom: 5px;
+}
+
+.card-footer img{
+    height: 100%;
+    margin-right: 10px;
+}
+
+.card-footer .right-icon{
+    float: right;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+
+.card > div{
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card > div div{
+    margin-top: 7px;
+}
+
+.card-footer .right-icon span{
+    display: inline-block;
+    margin-top: 0;
+}
+
+.user-profile{
+    text-decoration: none;
+    color: black;
+}
+.user-profile:hover{
+    text-decoration: none;
+}
+
+.user-profile:visited{
+    text-decoration: none;
+}
+
+.more-data-link{
+    text-decoration: none;
+    color: black;
+}
+.more-data-link:hover{
+    text-decoration: none;
+}
+
+.more-data-link:visited{
+    text-decoration: none;
 }
