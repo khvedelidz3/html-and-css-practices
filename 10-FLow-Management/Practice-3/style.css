@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+}
+
+.cell{
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.h-1{
+    height: 25px;
+}
+.h-2{
+    height: 50px;
+}
+.h-3{
+    height: 75px;
+}
+.h-4{
+    height: 100px;
+}
+.h-5{
+    height: 125px;
+}
+.h-6{
+    height: 150px;
+}
+.h-7{
+    height: 175px;
+}
+.h-8{
+    height: 200px;
+}
+
+.w-1{
+    width: 25px;
+}
+.w-2{
+    width: 50px;
+}
+.w-3{
+    width: 75px;
+}
+.w-4{
+    width: 100px;
+}
+.w-5{
+    width: 125px;
+}
+.w-6{
+    width: 150px;
+}
+.w-7{
+    width: 175px;
+}
+.w-8{
+    width: 200px;
+}
+
+.f-left{
+    float: left;
+}
+
+.clear-both{
+    clear: both;
+}
