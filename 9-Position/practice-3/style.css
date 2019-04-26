@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+}
+
+figure{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+}
+
+figure img{
+    width: 100%;
+}
+header{
+    position: absolute;
+    left: 8%;
+    top: 14%;
+    color: white;
+}
+
+.title {
+    height: 40px;
+    margin: 0;
+    z-index: 2;
+    color: white;
+    position: relative;
+    font-size: 50px;
+}
+
+.b-white{
+    display: inline-block;
+    height: 50px;
+    width: 80px;
+    background: white;
+    position: relative;
+    transform: translate(-20px, 59px);
+    z-index: 1;
+}
+
+.text-black{
+    color: black;
+}
+
+.content{
+    width: 380px;
+    font-size: 24px;
+}
+
+.button {
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50px);
+}
+.left-button{
+    position: absolute;
+    left: 20px;
+    background: white;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 6px;
+    box-sizing: border-box;
+}
+
+.right-button{
+    position: absolute;
+    right: 20px;
+    background: white;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 6px;
+    box-sizing: border-box;
+}
+
+.sport-button{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 45px;
+    width: 130px;
+    font-size: 29px;
+    background: orangered;
+    box-sizing: border-box;
+    padding: 5px 20px;
+}
+
+.lef-link, .right-link{
+    text-decoration: none;
+    color: black;
+}
+
+.sport-link{
+    text-decoration: none;
+    color: white;
+}
+
