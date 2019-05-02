@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1172px;
+    margin: auto;
+    font-family: 'Roboto';
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.container figure{
+    margin-bottom: 43px;
+}
+
+.container figure .img-container{
+    width: 1170px;
+    height: 800px;
+    background: #ECF0F1;
+}
+
+.container .header h3{
+    font-size: 36px;
+    line-height: 36px;
+    color: #2C3E50;
+    margin-bottom: 8px;
+}
+
+.container .header p{
+    font-size: 14px;
+    line-height: 36px;
+    color: #A1B1BC;
+    margin-bottom: 32px;
+}
+
+.container .header p span::after{
+    content: '';
+    height: 12px;
+    width: 1px;
+    background: #EBEBEB;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.container .header p span:last-child::after{
+    display: none;
+}
+
+.container .header::after{
+    content: '';
+    height: 1px;
+    background: #ECF0F1;
+    display: block;
+    margin-bottom: 32px;
+}
+
+.container .text > p{
+    font-size: 14px;
+    line-height: 23px;
+    color: #A1B1BC;
+}
+
+.container .text p:first-child{
+    margin-bottom: 44px;
+}
+
+.container .text .ads{
+    border: 1px solid #ECF0F1;
+    border-left: 10px solid #21C2F8;
+    margin-left: 30px;
+    margin-bottom: 33px;
+}
+
+.container .text .ads h4{
+    font-size: 24px;
+    line-height: 24px;
+    color: #A1B1BC;
+}
+.container .text .ads p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #A1B1BC;
+}
+
+.container .text h3{
+    font-size: 30px;
+    line-height: 30px;
+    color: #34495E;
+    margin-bottom: 14px;
+}
+
+.container .text .fox{
+    margin-bottom: 26px;
+}
+
+.container .text .fox::first-letter{
+    display: block;
+    color: #21C2F8;
+    background: #34495E;
+    padding: 9px 11px;
+    float: left;
+    font-size: 24px;
+}
