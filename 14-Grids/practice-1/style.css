@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 70px 150px 50px 50px;
+    grid-template-columns: 70px 130px 50px;
+    justify-content: center;
+}
+
+.container div{
+    border: 1px solid black;
+}
+
+.container .col-1{
+
+}
+
+.container .col-2{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.container .col-4{
+    grid-row: span 2;
+}
+
+.container .col-5{
+    grid-row: span 2;
+}
