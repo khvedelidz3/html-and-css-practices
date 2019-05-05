@@ -12,6 +12,8 @@
     margin-bottom: 50px;
 }
 
+
+/*practice-1 section start*/
 .container figure{
     margin-bottom: 47px;
 }
@@ -119,4 +121,213 @@
     font-size: 30px;
     margin-top: 7px;
     margin-right: 4px;
+}
+/*practice-1 section end*/
+
+/*practice-2 section start*/
+.p2-container{
+    width: 1172px;
+    margin: auto;
+    font-family: 'Roboto';
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.p2-container header h3{
+    font-size: 30px;
+    line-height: 30px;
+    color: #34495E;
+    letter-spacing: -0.3px;
+    margin-bottom: 13px;
+}
+
+.p2-container header h3 span{
+    color: #1ABC9C;
+}
+
+.p2-container header p{
+    font-size: 14px;
+    line-height: 23px;
+    color: #A1B1BC;
+    margin-bottom: 19px;
+}
+
+.p2-container header .list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 42px;
+}
+
+.p2-container header .list ul{
+    list-style: none;
+    font-size: 14px;
+    line-height: 30px;
+    color: #A1B1BC;
+    width: 372px;
+}
+
+.p2-container header .list ul:nth-child(odd) li::before{
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: #34495E;
+    border-radius: 1px;
+    margin-right: 20px;
+    position: relative;
+    left: 1px;
+    top: 5px;
+}
+
+.p2-container header .list ul:nth-child(even) li::before{
+    content: '';
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 1px #A1B1BC solid;
+    border-radius: 1px;
+    margin-right: 20px;
+    position: relative;
+    left: 1px;
+    top: 5px;
+}
+
+.p2-container main h3{
+    font-size: 30px;
+    line-height: 30px;
+    color: #34495E;
+    letter-spacing: -0.3px;
+    margin-bottom: 13px;
+}
+
+.p2-container main  p{
+    font-size: 14px;
+    line-height: 23px;
+    color: #A1B1BC;
+}
+
+.p2-container main .css{
+    background: #ECF0F1;
+    color: #A1B1BC;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 5px;
+    font-family: Arial,sans-serif;
+    height: 190px;
+    white-space: pre;
+    padding-left: 2px;
+    margin-bottom: 24px;
+}
+
+.p2-container main .img-section{
+    margin-top: 26px;
+    margin-bottom: 48px;
+}
+
+.p2-container main .img-section .img-container{
+    width: 370px;
+    height: 400px;
+    background: #ECF0F1;
+    float: left;
+    margin-right: 31px;
+    margin-top: 3px;
+}
+
+.p2-container main .img-section .img-section-text{
+    margin-top: -3px;
+    margin-bottom: 26px;
+}
+
+.p2-container main .img-section p:last-child{
+    margin-bottom: 0;
+}
+
+.p2-container footer {
+    clear: both;
+}
+
+.p2-container .tags-container{
+    border: #ECF0F1 1px solid;
+    height: 52px;
+    margin-bottom: 50px;
+}
+
+.p2-container footer .tags-container .icon{
+    width: 50px;
+    height: 50px;
+    background: #34495E;
+    display: inline-block;
+    font-size: 31px;
+    line-height: 38px;
+    color: white;
+    padding-left: 13px;
+    padding-top: 5px;
+    float: left;
+}
+
+.p2-container footer .tags-container a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: #A1B1BC;
+}
+
+.p2-container footer .tags{
+    font-size: 14px;
+    line-height: 20px;
+    color: #A1B1BC;
+    display: inline-block;
+    padding-left: 21px;
+    padding-top: 15px;
+    letter-spacing: 0.3px;
+}
+
+.p2-container footer .tags a:hover{
+    color: #1ABC9C;
+    text-decoration: underline;
+}
+
+.p2-container footer .reply-container{
+    clear: both;
+    background: #ECF0F1;
+    height: 159px;
+}
+
+.p2-container footer .reply-container .reply{
+    margin-left: 29px;
+    padding-top: 26px;
+}
+
+.p2-container footer .reply .avatar{
+    width: 105px;
+    height: 105px;
+    background: #A1B1BC;
+    border: #FFFFFF 3px solid;
+    border-radius: 3px;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+    float: left;
+    margin-right: 29px;
+}
+
+.p2-container footer .reply .content .user{
+    font-size: 18px;
+    line-height: 24px;
+    color: #2C3E50;
+    font-weight: 900;
+    margin-bottom: 2px;
+}
+
+.p2-container footer .reply .content .tag{
+    font-size: 14px;
+    line-height: 24px;
+    color: #A1B1BC;
+    font-weight: 100;
+    margin-bottom: 9px;
+}
+
+.p2-container footer .reply .content .comment-text{
+    font-size: 14px;
+    line-height: 24px;
+    color: #A1B1BC;
+    font-style: italic;
 }
