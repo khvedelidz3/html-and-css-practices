@@ -331,3 +331,197 @@
     color: #A1B1BC;
     font-style: italic;
 }
+
+/*practice-2 section end*/
+
+/*practice-3 section start*/
+
+.p3-container{
+    width: 1172px;
+    margin: auto;
+    font-family: 'Roboto';
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.p3-container header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.p3-container header p:first-child{
+    font-size: 30px;
+    line-height: 20px;
+    color: #2C3E50;
+    display: inline-block;
+}
+
+.p3-container header p:last-child{
+    font-size: 16px;
+    line-height: 20px;
+    color: #A1B1BC;
+    display: inline-block;
+}
+
+.p3-container .comment-container{
+    border : 1px solid #ECF0F1;
+    padding-bottom: 23px;
+    margin-bottom: 24px;
+}
+
+.p3-container .comment-container .btn{
+    width: 60px;
+    height: 24px;
+    background: #2C3E50;
+    border-radius: 3px;
+    border: none;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    margin-right: 31px;
+    margin-top: 2px;
+}
+
+.p3-container .comment .flex{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.p3-container main .reply-container .comment{
+    margin-left: 29px;
+    padding-top: 26px;
+}
+
+.p3-container main .comment-header{
+    padding-top: 29px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -4px;
+}
+
+.p3-container main .comment .avatar{
+    width: 74px;
+    height: 74px;
+    background: #A1B1BC;
+    border: #FFFFFF 3px solid;
+    border-radius: 3px;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+    float: left;
+    margin-left: 32px;
+    margin-top: 32px;
+    margin-right: 32px;
+}
+
+.p3-container main .comment .content .user{
+    font-size: 18px;
+    line-height: 24px;
+    color: #2C3E50;
+    font-weight: 900;
+    margin-bottom: 2px;
+}
+
+.p3-container main .comment .content .tag{
+    font-size: 14px;
+    line-height: 24px;
+    color: #A1B1BC;
+    font-weight: 100;
+    margin-bottom: 9px;
+    letter-spacing: -0.3px;
+}
+
+.p3-container main .comment .content .comment-text{
+    font-size: 14px;
+    line-height: 24px;
+    color: #A1B1BC;
+    font-style: italic;
+    display: inline-block;
+    width: 1016px;
+}
+
+.p3-container .comment-reply{
+    margin-left: 50px;
+    margin-bottom: 21px;
+}
+
+.p3-container .comment-reply .comment .avatar{
+    margin-left: 50px;
+    margin-top: 31px;
+}
+
+.p3-container main .comment-reply .content .comment-text{
+    width: 960px;
+}
+
+.p3-container .comment-container .btn:hover{
+    background: #A1B1BC;
+}
+
+.p3-container main{
+    margin-bottom: 79px;
+}
+
+.p3-container footer h3{
+    font-size: 30px;
+    line-height: 20px;
+    color: #2C3E50;
+    word-spacing: -1.9px;
+    margin-bottom: 49px;
+}
+
+.p3-container footer .input{
+    display: inline-block;
+}
+.p3-container footer .flex{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.p3-container footer div input::placeholder{
+    color:#A1B1BC;
+    padding-left: 19px;
+    letter-spacing: 0.1px;
+    /*font-family: 'Roboto';*/
+}
+
+.p3-container footer div.input:nth-child(odd) input{
+    width: 370px;
+    height: 50px;
+    background: #F7F8F9;
+    border: 1px solid #ECF0F1;
+    border-radius: 3px;
+}
+
+.p3-container footer div.input:nth-child(even) input{
+    width: 370px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #ECF0F1;
+    border-radius: 3px;
+}
+
+.p3-container footer textarea{
+    width: 100%;
+    height: 300px;
+    background: #F7F8F9;
+    border: 1px solid #ECF0F1;
+    border-radius: 3px;
+    margin-bottom: 16px;
+}
+
+.p3-container footer .submit input{
+    width: 190px;
+    height: 50px;
+    background: #2C3E50;
+    border: none;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-weight: 900;
+    letter-spacing: 0.6px;
+    word-spacing: 6px;
+}
+
